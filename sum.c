@@ -1,12 +1,11 @@
-#include<stdio.h>
-
- int main(){
-    int n;
-    printf("enter your number");
-    scanf("%d",&n);
-    int sum=0;
-    for(int i=0;i<=n;i++)
-    sum=sum+i;
-    printf("%d\n",sum);
-    return 0;
- }
+ #include<stdio.h>
+int main(){
+    
+    int arr[3]={1,2,3};
+    int  sum=0;
+    for(int i=0;i<=2;i++){
+        sum=sum+arr[i];
+}
+      printf("%d",sum);
+    }
+       
